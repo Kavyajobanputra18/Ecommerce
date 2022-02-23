@@ -8,12 +8,22 @@ def add(request):
 
 #Create views of Contact us page
 def contactUs(request):
-    return render(request, 'group/contactUs.html')
+    context ={
+        'contact_name' :['Dhiraj','Suresh','Vinay','Ajay','Rohan'],
+    }
+    return render(request, 'group/contactUs.html',context)
 
 #Create views of index  page
 def index(request):
-    return render(request, 'group/index.html')
+    context ={
+        'name' : 'FLIPKART',
+    }
+    return render(request, 'group/index.html',context)
 
-#Create views of Contact us page
+#Create views of About us page
 def aboutUs(request):
-    return render(request, 'group/aboutUs.html')
+    context ={
+        'isActive' :False,
+        'age' : 20
+    }
+    return render(request, 'group/aboutUs.html',context)

@@ -1,4 +1,11 @@
 <h1>
-    Contact Us on - 987654321
+    Contact Us Called...
 </h1>
-<a href="../add">ADD</a>
+<ul>
+    {% for i in contact_name  %}
+    <li>
+        {{i}}
+    </li>
+    {% endfor %}
+    
+</ul>

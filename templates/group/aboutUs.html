@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-</head>
-<body> 
-    <h1>About Us </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dolorum fugiat? Velit quas voluptates et magni, itaque eveniet doloremque impedit adipisci error architecto excepturi cupiditate id laborum quidem maxime culpa.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-</body>
-</html>
+<h1>
+    {% if isActive %}
+        <h1>
+            Is Active is True
+        </h1>
+        {% else %}
+        <h1>
+            Is Active is Flase
+        </h1>
+    {% endif %}
+    {% if age > 18 %}
+    <h2>User is Eligible</h2>
+    {% else %}
+    <h2>User is Not Eligible</h2>
+    {% endif %}
+</h1>
