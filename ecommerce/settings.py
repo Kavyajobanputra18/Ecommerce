@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'ibm',
     'Task',
     'ticket',
+    'serviceprovider',
 ]
 
 MIDDLEWARE = [

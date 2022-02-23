@@ -25,6 +25,7 @@ urlpatterns = [
     path('ibm/',include('ibm.urls')),
     path('Task/',include('Task.urls')),
     path('ticket/',include('ticket.urls')),
+    path('serviceprovider/',include('serviceprovider.urls')),
     
 
 
