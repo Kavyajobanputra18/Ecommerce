@@ -26,6 +26,7 @@ urlpatterns = [
     path('Task/',include('Task.urls')),
     path('ticket/',include('ticket.urls')),
     path('serviceprovider/',include('serviceprovider.urls')),
+    path('core/',include('core.urls')),
     
 
 
